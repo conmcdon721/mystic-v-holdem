@@ -1,11 +1,17 @@
 <template>
-  <h1>Joe Mama</h1>
+  <div>
+    <SeatUsher />
+  </div>
 </template>
 
 <script>
+import SeatUsher from './components/Usher.vue'
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    SeatUsher,
+},
 };
 </script>
 
