@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import SeatUsher from './components/Usher.vue'
+import SeatUsher from "./components/SeatUsher.vue";
 
 export default {
   name: "App",
   components: {
     SeatUsher,
-},
+  },
 };
 </script>
 
